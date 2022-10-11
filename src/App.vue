@@ -1,31 +1,29 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-
-  <img alt="Vue logo" src="./assets/logo.png">
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://picsum.photos/id/237/600/400" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/id/238/600/400" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/id/239/600/400" class="d-block w-100" alt="...">
-            </div>
-        </div>
-    </div>
+  <div id="app">
+    <NavBar />
+    <JumboTron />
+    <CallToAction />
+    <CardsTemp />
+    <FooterTemp />
+  </div>  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue';
+import JumboTron from './components/JumboTron.vue';
+import CallToAction from './components/CallToAction.vue';
+import CardsTemp from './components/CardsTemp.vue';
+import FooterTemp from './components/FooterTemp.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    NavBar,
+    JumboTron,
+    CallToAction,
+    CardsTemp,
+    FooterTemp
+}
 }
 </script>
 
@@ -36,6 +34,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
