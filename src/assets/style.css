@@ -1,0 +1,67 @@
+/* DataTable Style START */
+
+tr.hide-table-padding td {
+    padding: 0;
+}
+
+.expand-button {
+    position: relative;
+}
+
+.accordion-toggle .expand-button:after
+{
+    position: absolute;
+    left:.75rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: '-';
+}
+.accordion-toggle.collapsed .expand-button:after
+{
+    content: '+';
+}
+
+/* DataTable Style END*/
+
+
+/* Table style START */
+td {
+    width: 33%;
+}
+
+.table-responsive {
+    max-height:400px;
+}
+
+/* Table style END */
+
+
+/* Filter list style START */
+
+.searchBar {
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+li>span {
+    font-weight:bold;
+}
+
+/* Filter list style END */
+
+/* Footer START */
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .img-footer-pos {
+    display: block;
+    margin-left: auto;
+    width: 20%;
+  }
+
+  /* Footer END */
