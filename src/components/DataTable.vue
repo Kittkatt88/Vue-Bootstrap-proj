@@ -42,9 +42,9 @@
                 </ul>
             </div>
             <!-- List of Items -->
-            <div class="col-8 table-responsive my-3 p-3 border border-dark">
+            <div class="itemsTable col-8 table-responsive my-3 p-3 border border-dark">
                 <h3 style="text-align:left;">List of Items</h3>
-                <table class="table table-condensed table-striped">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <!-- <th>Choose to locate</th> -->
@@ -57,13 +57,16 @@
                         <tr>
                             <!-- TODO: ckChange function needs to be called from the assets/functionsJS.js somehow, to disable checkboxes when one is checked and to re-enable when unchecked -->
                             <!-- <td><input type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="{{ckChange(this)}}"></td> -->
-                            <td>Cables</td>
-                            <td>3</td>
+                            <td class="parentItem"><p>Cables</p></td>
+                            <td class="parentItem"><p>3</p></td>
                             <td>
-                                <button type="button" class="btn btn btn-info mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <button type="button" class="btn btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     Locate Item
                                 </button>
                                 <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#demo1" role="button" aria-expanded="false" aria-controls="demo1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path>
+                                    </svg>
                                     More Items
                                 </a>
                             </td>
@@ -82,9 +85,9 @@
                                         <tbody>
                                             <tr>
                                                 <td>HDMI 1</td>
-                                                <td>18Gbps, 6ft, 4K/60Hz</td>
+                                                <td>18Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz8Gbps, 6ft, 4K/60Hz</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -96,7 +99,7 @@
                                                 <td>USB 3.0</td>
                                                 <td>10ft, 480 Mbps</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -108,7 +111,7 @@
                                                 <td>USB-C</td>
                                                 <td>6ft, 60W</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -126,13 +129,16 @@
                         <tr>
                             <!-- TODO: ckChange function needs to be called from the assets/functionsJS.js somehow, to disable checkboxes when one is checked and to re-enable when unchecked -->
                             <!-- <td><input type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="{{ckChange(this)}}"></td> -->
-                            <td>Cables</td>
-                            <td>3</td>
+                            <td class="parentItem"><p>Cables</p></td>
+                            <td class="parentItem"><p>3</p></td>
                             <td>
-                                <button type="button" class="btn btn btn-info mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <button type="button" class="btn btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     Locate Item
                                 </button>
                                 <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#demo2" role="button" aria-expanded="false" aria-controls="demo2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path>
+                                    </svg>
                                     More Items
                                 </a>
                             </td>
@@ -153,7 +159,7 @@
                                                 <td>HDMI 1</td>
                                                 <td>18Gbps, 6ft, 4K/60Hz</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -165,7 +171,7 @@
                                                 <td>USB 3.0</td>
                                                 <td>10ft, 480 Mbps</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -177,7 +183,7 @@
                                                 <td>USB-C</td>
                                                 <td>6ft, 60W</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -195,13 +201,16 @@
                         <tr>
                             <!-- TODO: ckChange function needs to be called from the assets/functionsJS.js somehow, to disable checkboxes when one is checked and to re-enable when unchecked -->
                             <!-- <td><input type="checkbox" name="progress" id="progress1" value="1" tabIndex="1" onClick="{{ckChange(this)}}"></td> -->
-                            <td>Cables</td>
-                            <td>3</td>
+                            <td class="parentItem"><p>Cables</p></td>
+                            <td class="parentItem"><p>3</p></td>
                             <td>
-                                <button type="button" class="btn btn btn-info mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <button type="button" class="btn btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                     Locate Item
                                 </button>
                                 <a class="btn btn-outline-primary" data-bs-toggle="collapse" href="#demo3" role="button" aria-expanded="false" aria-controls="demo3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path>
+                                    </svg>
                                     More Items
                                 </a>
                             </td>
@@ -222,7 +231,7 @@
                                                 <td>HDMI 1</td>
                                                 <td>18Gbps, 6ft, 4K/60Hz</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -234,7 +243,7 @@
                                                 <td>USB 3.0</td>
                                                 <td>10ft, 480 Mbps</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -246,7 +255,7 @@
                                                 <td>USB-C</td>
                                                 <td>6ft, 60W</td>
                                                 <td> 
-                                                    <button type="button" class="btn btn-danger mx-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                         Retire Item
                                                     </button>
                                                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">

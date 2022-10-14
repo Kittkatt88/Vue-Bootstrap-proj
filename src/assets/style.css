@@ -1,3 +1,10 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+
 /* DataTable Style START */
 
 tr.hide-table-padding td {
@@ -25,13 +32,27 @@ tr.hide-table-padding td {
 
 
 /* Table style START */
-td {
-    width: 33%;
-}
 
 .table-responsive {
     max-height:400px;
 }
+
+td {
+    width: 33%;
+}
+.itemsTable .btn {
+    width: 160px;
+    margin: 5px 10px;
+}
+
+.parentItem>p {
+    font-size: larger;
+    text-align: left;
+    color: darkred;
+    margin-top: revert;
+    font-weight: bold;
+}
+
 
 /* Table style END */
 
